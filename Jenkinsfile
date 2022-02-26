@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('PIPELINE1') {
       steps {
         build(job: 'JOB-1', propagate: true)
       }
